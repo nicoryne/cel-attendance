@@ -543,7 +543,7 @@ export default function Overview() {
                                       </DialogHeader>
                                       <div className="grid gap-4 py-4">
                                         <Select
-                                          value={status || 'scheduled'}
+                                          value={status || ''}
                                           onValueChange={(value) =>
                                             updateVolunteerStatus(
                                               volunteer.id,
