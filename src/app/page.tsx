@@ -407,7 +407,7 @@ export default function Home() {
                     No volunteers scheduled for today
                   </div>
                 ) : (
-                  <div className="space-y-6">
+                  <div className="h-96 space-y-6 overflow-y-scroll">
                     {Object.entries(scheduledVolunteers).map(([dept, volunteers]) => (
                       <div key={dept}>
                         <h3 className="mb-2 text-lg font-medium capitalize">{dept}</h3>
